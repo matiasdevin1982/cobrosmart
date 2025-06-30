@@ -33,4 +33,4 @@ Este proyecto es una **librería JavaScript** que permite integrar fácilmente e
     activar_whatsapp: false            // true para forzar que el botón derive siempre a WhatsApp
   };
 </script>
-<script src="https://cdn.cobrosmart.com/asistente_cobrosmart.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/matiasdevin1982/cobrosmart@main/asistente_cobrosmart.js"></script>
