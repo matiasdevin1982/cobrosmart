@@ -18,7 +18,7 @@ Este proyecto es una **librería JavaScript** que permite integrar fácilmente e
 
 ## 🧩 Cómo integrarlo
 
-### 1. Definí tu configuración:
+### 1. Definí tu configuración
 
 ```html
 <script>
@@ -26,6 +26,11 @@ Este proyecto es una **librería JavaScript** que permite integrar fácilmente e
     asistente_cobrosmart: 'asst_TU_ID_UNICO', // ⚠️ Obligatorio
     star_mensaje: 'Hola, ¿cómo puedo ayudarte?', // Opcional
     img_smart_cobrosmart: 'https://tusitio.com/logo.png', // Opcional
-    es_test: 'no' // 'si' para test, 'no' para producción
+    es_test: 'no', // 'si' para test, 'no' para producción
+
+    // Configuración avanzada de WhatsApp (opcional)
+    whatsapp_numero: '5491123456789', // Número de WhatsApp con código país (sin + ni espacios)
+    activar_whatsapp: false            // true para forzar que el botón derive siempre a WhatsApp
   };
 </script>
+<script src="https://cdn.cobrosmart.com/asistente_cobrosmart.js"></script>
